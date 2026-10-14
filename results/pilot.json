@@ -1,0 +1,208 @@
+{
+  "seed": 41,
+  "trials": 100,
+  "sigma": 0.85,
+  "budget_per_item": 2,
+  "graph_bytes": 224,
+  "exact_indexed_bytes": 13,
+  "bits_per_pair": 98,
+  "protocol": "exploratory: NOT pretrained, NOT a learned policy",
+  "records": [
+    {
+      "scenario": "independent",
+      "gauge": "fixed_frame",
+      "trials": 100,
+      "all_loop_invariant": true,
+      "budget_shots_per_trial": 196,
+      "metrics": {
+        "exact": {
+          "mean": 1.0,
+          "trial_stderr": 0.0
+        },
+        "single_one_shot": {
+          "mean": 0.538265,
+          "trial_stderr": 0.004569
+        },
+        "paired_one_shot": {
+          "mean": 1.0,
+          "trial_stderr": 0.0
+        },
+        "noisy_uniform": {
+          "mean": 0.86,
+          "trial_stderr": 0.003911
+        },
+        "noisy_confidence": {
+          "mean": 0.900204,
+          "trial_stderr": 0.002942
+        },
+        "preserved_changed_faces": {
+          "mean": 1,
+          "trial_stderr": 0.0
+        },
+        "naive_changed_faces": {
+          "mean": 2,
+          "trial_stderr": 0.0
+        },
+        "preserving_rewrite_edges": {
+          "mean": 4.29,
+          "trial_stderr": 0.167751
+        },
+        "write_edges_initial": {
+          "mean": 392,
+          "trial_stderr": 0.0
+        },
+        "confidence_shot_std": {
+          "mean": 1.541363,
+          "trial_stderr": 0.007402
+        }
+      }
+    },
+    {
+      "scenario": "independent",
+      "gauge": "random_vertex_phases",
+      "trials": 100,
+      "all_loop_invariant": true,
+      "budget_shots_per_trial": 196,
+      "metrics": {
+        "exact": {
+          "mean": 1.0,
+          "trial_stderr": 0.0
+        },
+        "single_one_shot": {
+          "mean": 0.495102,
+          "trial_stderr": 0.005159
+        },
+        "paired_one_shot": {
+          "mean": 1.0,
+          "trial_stderr": 0.0
+        },
+        "noisy_uniform": {
+          "mean": 0.870918,
+          "trial_stderr": 0.003254
+        },
+        "noisy_confidence": {
+          "mean": 0.904184,
+          "trial_stderr": 0.003432
+        },
+        "preserved_changed_faces": {
+          "mean": 1,
+          "trial_stderr": 0.0
+        },
+        "naive_changed_faces": {
+          "mean": 2,
+          "trial_stderr": 0.0
+        },
+        "preserving_rewrite_edges": {
+          "mean": 4.47,
+          "trial_stderr": 0.167847
+        },
+        "write_edges_initial": {
+          "mean": 392,
+          "trial_stderr": 0.0
+        },
+        "confidence_shot_std": {
+          "mean": 1.533375,
+          "trial_stderr": 0.007589
+        }
+      }
+    },
+    {
+      "scenario": "shapes",
+      "gauge": "fixed_frame",
+      "trials": 100,
+      "all_loop_invariant": true,
+      "budget_shots_per_trial": 196,
+      "metrics": {
+        "exact": {
+          "mean": 1.0,
+          "trial_stderr": 0.0
+        },
+        "single_one_shot": {
+          "mean": 0.513571,
+          "trial_stderr": 0.004492
+        },
+        "paired_one_shot": {
+          "mean": 1.0,
+          "trial_stderr": 0.0
+        },
+        "noisy_uniform": {
+          "mean": 0.860102,
+          "trial_stderr": 0.003457
+        },
+        "noisy_confidence": {
+          "mean": 0.898469,
+          "trial_stderr": 0.003105
+        },
+        "preserved_changed_faces": {
+          "mean": 1,
+          "trial_stderr": 0.0
+        },
+        "naive_changed_faces": {
+          "mean": 2,
+          "trial_stderr": 0.0
+        },
+        "preserving_rewrite_edges": {
+          "mean": 4.42,
+          "trial_stderr": 0.178761
+        },
+        "write_edges_initial": {
+          "mean": 392,
+          "trial_stderr": 0.0
+        },
+        "confidence_shot_std": {
+          "mean": 1.541051,
+          "trial_stderr": 0.00777
+        }
+      }
+    },
+    {
+      "scenario": "shapes",
+      "gauge": "random_vertex_phases",
+      "trials": 100,
+      "all_loop_invariant": true,
+      "budget_shots_per_trial": 196,
+      "metrics": {
+        "exact": {
+          "mean": 1.0,
+          "trial_stderr": 0.0
+        },
+        "single_one_shot": {
+          "mean": 0.501224,
+          "trial_stderr": 0.004787
+        },
+        "paired_one_shot": {
+          "mean": 1.0,
+          "trial_stderr": 0.0
+        },
+        "noisy_uniform": {
+          "mean": 0.867143,
+          "trial_stderr": 0.003695
+        },
+        "noisy_confidence": {
+          "mean": 0.909388,
+          "trial_stderr": 0.002876
+        },
+        "preserved_changed_faces": {
+          "mean": 1,
+          "trial_stderr": 0.0
+        },
+        "naive_changed_faces": {
+          "mean": 2,
+          "trial_stderr": 0.0
+        },
+        "preserving_rewrite_edges": {
+          "mean": 4.79,
+          "trial_stderr": 0.172501
+        },
+        "write_edges_initial": {
+          "mean": 392,
+          "trial_stderr": 0.0
+        },
+        "confidence_shot_std": {
+          "mean": 1.530746,
+          "trial_stderr": 0.007377
+        }
+      }
+    }
+  ]
+}
